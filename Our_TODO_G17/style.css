@@ -1,0 +1,77 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("5.jpg");
+
+}
+header{
+    height: 4em;
+    background-image: url("5.jpg");
+    color: #337ab7;
+    font-family: algiers;
+    text-align: center;
+
+}
+#top{
+    margin-top: 0px;
+}
+section{
+    margin: 1em;
+}
+#event,#time{
+    height: 2.5em;
+}
+#input{
+    height:3em;
+    text-align: center;
+}
+#form1{
+    background-image: url("5.jpg");
+    
+}
+
+.panel-footer{
+    text-align: center;
+}
+
+
+.container{
+    margin-top: 5.6em;
+    height: auto;
+    width: 600px;
+}
+
+.btn{
+    color: #ffffff;
+    margin-top: 2px;
+}
+
+
+.btn:hover {
+    background-color:purple;
+    color: #ffffff;
+}
+#error{
+    color: orangered;
+}
+.table tr {
+    width: 100%;
+}
+.table tbody tr td:nth-child(1){
+    float: left;
+}
+.table tbody tr td:nth-child(2){
+    text-align:center;
+    color: midnightblue;
+    font-size: large;
+}
+.table tbody tr td:nth-child(3){
+    float: right;
+}
+
+#plus{
+    float: right;
+    color: blue;
+    font-size: 1.5em;
+    cursor: pointer;
+}
