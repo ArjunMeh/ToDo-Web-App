@@ -19,14 +19,17 @@ session_start();
             height: 100%;
             width: 100%;
             margin: 0 auto;
-            background-image: url("5.jpg");
-            color: #52E5D8;
+            background: linear-gradient(135deg, #ff4a77, #2D5CFE);
+            color:white;
 
         }
         .container{
-            margin-top: 2.5em;
+            margin-top: 25vh ;
             height: auto;
             width: auto;
+            margin-right: 30vh ;
+            margin-left: 80vh ;
+       
         }
 
 
@@ -36,7 +39,7 @@ session_start();
 
         }
         a:hover{
-            color: #47247B;
+            color: white ;
         }
         #php{
             color: red;
@@ -50,7 +53,7 @@ session_start();
 <body>
 <div class="container">
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post">
-    <h1>Login| <a href="register.php" style="font-size: 25px">Register Now</a></h1>
+    <h1>Login| <a href="register.php" style=" color:white">Register Now</a></h1>
     <div class="form-group">
         <div class="row">
          <div class="col-sm-4">

@@ -20,16 +20,17 @@
             height: 100%;
             width: 100%;
             margin: 0 auto;
-            background-image: url("5.jpg");
-            color: #52E5D8;
+            background: linear-gradient(135deg, #ff4a77, #2D5CFE);
+            color: white;
 
         }
 
         .container{
             margin-top: 1.5em;
-            margin-left: 30px;
+            margin-left: 70vh;
             height: auto;
             width: auto;
+            margin-right: 5vh ;
         }
         #php{
             color: red;
@@ -48,7 +49,7 @@
 <div class="container">
 <form id="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post">
         <div class="form-group">
-          <h1>REGISTER|<a href="Login.php" style="font-size: 19px">Already Registered?</a></h1>
+          <h1>REGISTER  | <a href="Login.php" style="color: white">Already Registered?</a></h1>
 
             <div class="row">
                 <div class="col-sm-4">

@@ -1,14 +1,14 @@
 body{
     width: 100%;
     height: 100%;
-    background-image: url("5.jpg");
+    background: linear-gradient(135deg, #ff4a77, #2D5CFE);
 
 }
 header{
     height: 4em;
-    background-image: url("5.jpg");
-    color: #337ab7;
-    font-family: algiers;
+    background: linear-gradient(135deg, #ff4a77, #2D5CFE);
+    color: white;
+    font-family: 'Anurati', sans-serif;
     text-align: center;
 
 }
@@ -26,7 +26,7 @@ section{
     text-align: center;
 }
 #form1{
-    background-image: url("5.jpg");
+    background: linear-gradient(135deg, #ff4a77, #2D5CFE);
     
 }
 
@@ -38,7 +38,7 @@ section{
 .container{
     margin-top: 5.6em;
     height: auto;
-    width: 600px;
+    width: auto;
 }
 
 .btn{
@@ -62,7 +62,7 @@ section{
 }
 .table tbody tr td:nth-child(2){
     text-align:center;
-    color: midnightblue;
+    color: blue;
     font-size: large;
 }
 .table tbody tr td:nth-child(3){
